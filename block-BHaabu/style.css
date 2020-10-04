@@ -49,8 +49,19 @@ table {
 body{
    
     
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("assets/background.jpg") no-repeat;
-    background-size: 100%;   
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("assets/background.jpg") no-repeat;
+    background-size: cover;   
+    background-attachment: fixed;
+   
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
    
 }
 header{
@@ -80,10 +91,10 @@ header{
     background: radial-gradient(#c90734 45%, #702436,#0f0507);
 }
 .img{
-    background: linear-gradient(to right bottom, rgba(165, 143, 143, 0.7),rgba(175, 49, 49, 0.7)),url("assets/ship.jpeg") no-repeat;
-    background-size: 100%;
-    height: 300px;
-    width: 80%;
+    background: linear-gradient(to right bottom,gray ,rgba(175, 49, 49, 0.7)),url("assets/pic7.jpeg") 50% 50% no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 80%%;
     text-align: center;
     margin: 20px auto;
 }
